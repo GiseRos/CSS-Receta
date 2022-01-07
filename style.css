@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    background-image: url("https://i.pinimg.com/originals/03/de/ac/03deac446c5b6c34795564977d8fae97.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* estilo del header */
+header{
+    font-size: 3em;
+    background-color: rgba(238, 232, 224, 0.651);
+    position: sticky;
+    width: 100%;
+    padding: 0em 1em 0em 1em;
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: row-reverse;
+    color: rgb(10, 23, 82);    
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 200;
+    text-decoration-line:underline;
+    color: rgb(0, 0, 0);
+}
+/* estilo de section */
+h2{
+    text-align: center;
+    color: rgb(61, 60, 60);
+}
+
+ul, ol{
+    color: rgb(107, 107, 107);
+}
+
+img{
+    border-radius: 10px;
+}
+
+img.chocotorta{
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 2em 1em 2em 2em;
+    border-radius: 10px;
+}
+
+.ingredientes, .pasos{
+    background-color:rgba(238, 232, 224, 0.651);
+    border-radius: 10px;
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 2em 1em 2em 1em;
+    text-align:justify;
+    text-indent: 1%;
+}
+
+#recipe{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+}
+
+/* estilo de footer */
+.footer{
+    background-color: rgba(238, 232, 224, 0.651);
+    width: 100%;
+    text-align: center;
+}
+
+p.dev{
+    font-size: 150%;
+}
+
+p.paulina{
+    font-size: 200%;
+}
+
+
